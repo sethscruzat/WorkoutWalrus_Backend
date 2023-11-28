@@ -66,11 +66,10 @@ router.post('/register',async (req, res) => {
 
     if(checkUser == null){
       const newUser = new User({
-        email: req.body.email,
+        userID: req.body.userID,
         name: req.body.name,
         birthday: req.body.birthday,
         username: req.body.username,
-        password: req.body.password,
         height: req.body.height,
         weight: req.body.weight,
         totalCalBurned: 0

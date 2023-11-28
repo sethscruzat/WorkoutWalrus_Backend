@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 const userRoutes = require('../routes/users');
-const uri = "mongodb+srv://workoutWalrus:123456789workoutWalrus@cluster0.ewa6d4n.mongodb.net/workoutwalrus?retryWrites=true&w=majority";
+const uri = "mongodb+srv://walrus_user:user123@cluster0.ewa6d4n.mongodb.net/?retryWrites=true&w=majority";
 
 // const USERS = require('../users/users');
 
