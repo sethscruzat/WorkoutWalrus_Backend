@@ -72,7 +72,8 @@ router.post('/register',async (req, res) => {
         username: req.body.username,
         height: req.body.height,
         weight: req.body.weight,
-        totalCalBurned: 0
+        totalCalBurned: 0,
+        toDo: []
       })
       newUser.save()
       res.json(newUser)
